@@ -51,5 +51,13 @@ export function getProducts() {
         thumbnail_url: '/images/products/tui-phu-kien.png'
     }
 
-    return [product1, product2, product3, product4, product5]
+    const product6: Product = {
+        id: 'hub-maytinh',
+        name: 'Hub May Tính',
+        description: '',
+        price: 34000,
+        thumbnail_url: '/images/products/tui-phu-kien.png'
+    }
+
+    return [product1, product2, product3, product4, product5, product6]
 }
